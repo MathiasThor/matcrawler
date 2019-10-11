@@ -9,8 +9,14 @@
 =====================+
 => Quick Start
 =====================+
-1. Follow the setup guides below
-1. Start a roscore in a terminal
-2. Start V-REP and open the matcrawler.ttt in the simulations directory
- - V-REP can be started by going to '/V-REP/V-REP_PRO_EDU_V3_6_2_UbuntuXX_XX/'
- - Then run './vrep.sh'
+Download V-REP
+1. Go to http://www.coppeliarobotics.com/ubuntuVersions.html
+2. Download 'V-REP PRO EDU, Ubuntu 1X.04'
+3. Extract to the '/V-REP/' directory 
+
+Run simulation
+1. Start a 'roscore' in a terminal
+2. Open a new terminal or tab
+3. Navigate to the unpacked V-REP directory and run './vrep.sh'
+4. Press open 'file > open scene' and navigate to '/simulation/' and open 'matcrawler.ttt'
+5. Press start simulation
